@@ -1,0 +1,64 @@
+HOSPITAL EMERGENCY ROOM QUEUE SYSTEM
+Student Name: Mughira Ijaz
+BS Artificial Intelligence 'B'
+
+PROBLEM STATEMENT
+A small hospital needs to manage patients in the Emergency Room (ER) efficiently. Patient priority can change quickly as new critical patients arrive or treated patients leave. The hospital requires a flexible system to track current patients in the ER using a Doubly Linked List data structure. Each node represents one patient with a patientID and pointers to previous and next patients. The system must support operations like adding critical patients at the beginning, normal patients at the end, inserting at specific positions, and removing treated patients from the beginning.
+
+PROPOSED SOLUTION
+Data Structure: Doubly Linked List with head and tail pointers
+Operations Implemented:
+
+insertAtBeginning(patientID): Adds critical ambulance patients who need immediate treatment
+insertAtEnd(patientID): Adds walk-in patients who can wait in queue
+insertAtPosition(patientID, position): Allows head nurse to insert patient at specific position
+deleteFromBeginning(): Removes treated patient from the front of queue
+
+Edge Cases Handled: Empty list insertion, single node deletion, position out of bounds
+
+GRAPHICAL REPRESENTATION OF OPERATIONS
+Step 1: insertAtEnd(101)
+[101]
+HEAD/TAIL
+prev: NULL | next: NULL
+```
+
+### Step 2: insertAtEnd(102)
+```
+[101] ⟷ [102]
+HEAD      TAIL
+prev: NULL    next: NULL
+```
+
+### Step 3: insertAtBeginning(200) // critical patient
+```
+[200] ⟷ [101] ⟷ [102]
+HEAD              TAIL
+prev: NULL            next: NULL
+```
+
+### Step 4: insertAtPosition(150, 2)
+```
+[200] ⟷ [150] ⟷ [101] ⟷ [102]
+HEAD   (Position 2)         TAIL
+prev: NULL                      next: NULL
+```
+
+### Step 5: deleteFromBeginning()
+```
+[150] ⟷ [101] ⟷ [102]
+HEAD              TAIL
+prev: NULL            next: NULL
+```
+
+### Step 6: insertAtEnd(300)
+```
+[150] ⟷ [101] ⟷ [102] ⟷ [300]
+HEAD                      TAIL
+prev: NULL                    next: NULL
+
+FINAL STATE AFTER STEP 6:
+(a) PatientID at head: 150
+(b) PatientID at tail: 300
+(c) Forward traversal (head → tail): 150 → 101 → 102 → 300
+(d) Backward traversal (tail → head): 300 → 102 → 101 → 150
