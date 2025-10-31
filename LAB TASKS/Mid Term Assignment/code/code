@@ -1,0 +1,185 @@
+#include <iostream>
+using namespace std;
+
+
+struct Node {
+    int patientID;
+    Node* prev;
+    Node* next;
+};
+
+
+Node* head = NULL;
+Node* tail = NULL;
+
+
+void insertAtBeginning(int patientID) {
+    Node* newNode = new Node();
+    newNode->patientID = patientID;
+    newNode->prev = NULL;
+    newNode->next = NULL;
+    
+   
+    if(head == NULL) {
+        head = newNode;
+        tail = newNode;
+    }
+    else {
+        newNode->next = head;
+        head->prev = newNode;
+        head = newNode;
+    }
+}
+
+
+void insertAtEnd(int patientID) {
+    Node* newNode = new Node();
+    newNode->patientID = patientID;
+    newNode->prev = NULL;
+    newNode->next = NULL;
+    
+    
+    if(head == NULL) {
+        head = newNode;
+        tail = newNode;
+    }
+    else {
+        tail->next = newNode;
+        newNode->prev = tail;
+        tail = newNode;
+    }
+}
+
+
+void insertAtPosition(int patientID, int position) {
+    
+    if(position == 1) {
+        insertAtBeginning(patientID);
+        return;
+    }
+    
+    Node* newNode = new Node();
+    newNode->patientID = patientID;
+    newNode->prev = NULL;
+    newNode->next = NULL;
+    
+    Node* temp = head;
+    int cnt = 1;
+    
+    
+    while(temp != NULL && cnt < position - 1) {
+        temp = temp->next;
+        cnt++;
+    }
+    
+    // if position greater than length, insert at end
+    if(temp == NULL || temp->next == NULL) {
+        insertAtEnd(patientID);
+        return;
+    }
+    
+    newNode->next = temp->next;
+    newNode->prev = temp;
+    temp->next->prev = newNode;
+    temp->next = newNode;
+}
+
+
+void deleteFromBeginning() {
+    
+    if(head == NULL) {
+        cout << "List is empty, cannot delete" << endl;
+        return;
+    }
+    
+    Node* temp = head;
+    
+    if(head == tail) {
+        head = NULL;
+        tail = NULL;
+    }
+    else {
+        head = head->next;
+        head->prev = NULL;
+    }
+    
+    delete temp;
+}
+
+
+void displayForward() {
+    Node* temp = head;
+    cout << "Forward: ";
+    while(temp != NULL) {
+        cout << temp->patientID;
+        if(temp->next != NULL)
+            cout << " -> ";
+        temp = temp->next;
+    }
+    cout << endl;
+}
+
+
+void displayBackward() {
+    Node* temp = tail;
+    cout << "Backward: ";
+    while(temp != NULL) {
+        cout << temp->patientID;
+        if(temp->prev != NULL)
+            cout << " -> ";
+        temp = temp->prev;
+    }
+    cout << endl;
+}
+
+int main() {
+    
+    cout << "step 1: inserting at the end" << endl;
+    insertAtEnd(101);
+    displayForward();
+    cout << endl;
+    
+    
+    
+	cout << "step 2: inserting at the end" << endl;
+    insertAtEnd(102);
+    displayForward();
+    cout << endl;
+    
+	cout << "step 3: inserting critcal patient at the beginning" << endl;
+    insertAtBeginning(200);
+    displayForward();
+    cout << endl;
+    
+    
+    
+	cout << "step 4: inserting at certain position" << endl;
+    insertAtPosition(150, 2);
+    displayForward();
+    cout << endl;
+    
+    
+    cout << "step 5: deleting from the beginning" << endl;
+    deleteFromBeginning();
+    displayForward();
+    cout << endl;
+    
+    
+    cout << "step 6: inserting at the end" << endl;
+    insertAtEnd(300);
+    displayForward();
+    cout << endl;
+    
+    
+    cout << "========== answers  ==========" << endl;
+    cout << "(a) patient id at head: " << head->patientID << endl;
+    cout << "(b) Patient id at tail: " << tail->patientID << endl;
+    
+    cout << "(c) ";
+    displayForward();
+    
+    cout << "(d) ";
+    displayBackward();
+    
+    return 0;
+}
