@@ -1,0 +1,2 @@
+Bubble comparisons: 0 swaps: 0
+Selection comparisons: 0 swaps: 0

@@ -1,0 +1,87 @@
+Department CSE
+Alice Johnson Sem 5 CGPA 3.85
+Students: 1 Avg: 3.85 High: 3.85 Low: 3.85 AvgCredits: 142
+
+Department MEC
+Charlie Brown Sem 3 CGPA 3.45
+Students: 1 Avg: 3.45 High: 3.45 Low: 3.45 AvgCredits: 89
+
+Department CSE
+Diana Prince Sem 7 CGPA 3.78
+Students: 1 Avg: 3.78 High: 3.78 Low: 3.78 AvgCredits: 195
+
+Department CIV
+Edward Stark Sem 4 CGPA 3.21
+Students: 1 Avg: 3.21 High: 3.21 Low: 3.21 AvgCredits: 112
+
+Department CSE
+Fatima Khan Sem 2 CGPA 3.1
+Students: 1 Avg: 3.1 High: 3.1 Low: 3.1 AvgCredits: 48
+
+Department CIV
+Iqra Noor Sem 5 CGPA 2.95
+Students: 1 Avg: 2.95 High: 2.95 Low: 2.95 AvgCredits: 130
+
+Department MEC
+Junaid Ahmed Sem 6 CGPA 3.55
+Students: 1 Avg: 3.55 High: 3.55 Low: 3.55 AvgCredits: 160
+
+Department CSE
+Komal Raza Sem 1 CGPA 3.9
+Students: 1 Avg: 3.9 High: 3.9 Low: 3.9 AvgCredits: 18
+
+Department EEE
+Laraib Hussain Sem 7 CGPA 2.8
+Students: 1 Avg: 2.8 High: 2.8 Low: 2.8 AvgCredits: 175
+
+Department CIV
+Mohsin Rauf Sem 3 CGPA 3.25
+Students: 1 Avg: 3.25 High: 3.25 Low: 3.25 AvgCredits: 75
+
+Department CSE
+Nida Farooq Sem 8 CGPA 3.6
+Students: 1 Avg: 3.6 High: 3.6 Low: 3.6 AvgCredits: 205
+
+Department MEC
+Owais Siddiq Sem 4 CGPA 2.4
+Students: 1 Avg: 2.4 High: 2.4 Low: 2.4 AvgCredits: 95
+
+Department CIV
+Qasim Akhtar Sem 6 CGPA 3.05
+Students: 1 Avg: 3.05 High: 3.05 Low: 3.05 AvgCredits: 150
+
+Department CSE
+Rabia Anwar Sem 7 CGPA 3.88
+Students: 1 Avg: 3.88 High: 3.88 Low: 3.88 AvgCredits: 198
+
+Department MEC
+Salman Yousaf Sem 5 CGPA 2.7
+Students: 1 Avg: 2.7 High: 2.7 Low: 2.7 AvgCredits: 128
+
+Department EEE
+Taha Imran Sem 1 CGPA 3.35
+Students: 1 Avg: 3.35 High: 3.35 Low: 3.35 AvgCredits: 20
+
+Department CIV
+Uzma Khalid Sem 8 CGPA 3.5
+Students: 1 Avg: 3.5 High: 3.5 Low: 3.5 AvgCredits: 220
+
+Department CSE
+Waqas Malik Sem 6 CGPA 2.2
+Students: 1 Avg: 2.2 High: 2.2 Low: 2.2 AvgCredits: 155
+
+Department MEC
+Yasir Mehmood Sem 4 CGPA 3
+Students: 1 Avg: 3 High: 3 Low: 3 AvgCredits: 102
+
+Department EEE
+Zara Sheikh Sem 3 CGPA 3.72
+Students: 1 Avg: 3.72 High: 3.72 Low: 3.72 AvgCredits: 80
+
+Department CIV
+Zubair Hassan Sem 5 CGPA 2.85
+Students: 1 Avg: 2.85 High: 2.85 Low: 2.85 AvgCredits: 135
+
+Department CSE
+Ayesha Noor Sem 8 CGPA 3.95
+Students: 1 Avg: 3.95 High: 3.95 Low: 3.95 AvgCredits: 230

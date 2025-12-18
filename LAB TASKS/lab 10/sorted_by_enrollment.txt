@@ -1,0 +1,87 @@
+Year 2020
+202301 Alice Johnson 3.85
+Average CGPA: 3.85
+
+Year 2022
+203012 Charlie Brown 3.45
+Average CGPA: 3.45
+
+Year 2018
+201987 Diana Prince 3.78
+Average CGPA: 3.78
+
+Year 2021
+202589 Edward Stark 3.21
+Average CGPA: 3.21
+
+Year 2023
+202411 Fatima Khan 3.1
+Average CGPA: 3.1
+
+Year 2020
+202533 Iqra Noor 2.95
+Average CGPA: 2.95
+
+Year 2019
+202998 Junaid Ahmed 3.55
+Average CGPA: 3.55
+
+Year 2024
+203145 Komal Raza 3.9
+Average CGPA: 3.9
+
+Year 2018
+201665 Laraib Hussain 2.8
+Average CGPA: 2.8
+
+Year 2022
+202721 Mohsin Rauf 3.25
+Average CGPA: 3.25
+
+Year 2017
+201432 Nida Farooq 3.6
+Average CGPA: 3.6
+
+Year 2021
+202888 Owais Siddiq 2.4
+Average CGPA: 2.4
+
+Year 2019
+202156 Qasim Akhtar 3.05
+Average CGPA: 3.05
+
+Year 2018
+201999 Rabia Anwar 3.88
+Average CGPA: 3.88
+
+Year 2020
+202644 Salman Yousaf 2.7
+Average CGPA: 2.7
+
+Year 2024
+203011 Taha Imran 3.35
+Average CGPA: 3.35
+
+Year 2016
+202455 Uzma Khalid 3.5
+Average CGPA: 3.5
+
+Year 2019
+201888 Waqas Malik 2.2
+Average CGPA: 2.2
+
+Year 2021
+202777 Yasir Mehmood 3
+Average CGPA: 3
+
+Year 2022
+203078 Zara Sheikh 3.72
+Average CGPA: 3.72
+
+Year 2020
+202999 Zubair Hassan 2.85
+Average CGPA: 2.85
+
+Year 2016
+201555 Ayesha Noor 3.95
+Average CGPA: 3.95
