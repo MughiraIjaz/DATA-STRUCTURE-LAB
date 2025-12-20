@@ -1,6 +1,3 @@
-// Student Performance Analytics System
-// Single-file C++ implementation (student-style)
-
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -22,7 +19,7 @@ struct Node {
     Node* next;
 };
 
-// ---------------- BASIC LIST FUNCTIONS ----------------
+
 
 Node* newNode(Student s) {
     Node* n = new Node;
@@ -59,7 +56,6 @@ void freeList(Node*& head) {
     }
 }
 
-// ---------------- VALIDATION ----------------
 
 int isValid(Student s) {
     if (s.cgpa < 0 || s.cgpa > 4) return 0;
@@ -76,12 +72,12 @@ int idExists(Node* head, int id) {
     return 0;
 }
 
-// ---------------- SORT METRICS ----------------
+
 
 long long bubbleCmp = 0, bubbleSwap = 0;
 long long selectCmp = 0, selectSwap = 0;
 
-// ---------------- SORTING ----------------
+
 
 void bubbleSortCGPA(Node* head) {
     int swapped;
@@ -157,7 +153,7 @@ void bubbleSortName(Node* head) {
     } while (swapped);
 }
 
-// ---------------- OUTPUT FILES ----------------
+
 
 void writeRankCGPA(Node* h) {
     ofstream out("ranked_by_cgpa.txt");
@@ -252,7 +248,7 @@ void writeTiers(Node* h) {
     }
 }
 
-// ---------------- SEARCH ----------------
+
 
 void searchByID(Node* h, int id) {
     ofstream out("search_results.txt", ios::app);
